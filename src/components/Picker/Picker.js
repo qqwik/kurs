@@ -8,8 +8,7 @@ const Picker = ({color, colorIndex, clickHandler, incrementCount}) => {
     <div className={className}
     onClick={(e) => {
       incrementCount();
-      console.log("HI!");
-      clickHandler(colorIndex, 0, 0);
+      clickHandler(colorIndex);
     }}
     ></div>
   );
